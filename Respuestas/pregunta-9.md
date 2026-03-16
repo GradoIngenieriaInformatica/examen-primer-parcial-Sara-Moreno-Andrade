@@ -1,4 +1,4 @@
 db.cursos.find(
 {},
-{ nombre:1 }
+{ nombre:1 , _id:0 }
 )
